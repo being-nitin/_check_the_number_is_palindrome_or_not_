@@ -3,9 +3,8 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	// checking the number is palindrome or not by using stack.
         System.out.println(palindrome(676));
-
     }
     public static boolean palindrome(int n){
         Stack<Integer> stack = new Stack<>();
@@ -21,5 +20,4 @@ public class Main {
         }
         return false;
     }
-
 }
